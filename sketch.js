@@ -49,15 +49,14 @@ function setup() {
 	ground = Bodies.rectangle(width/2, 653, width, 10 , {isStatic:true} );
 	 World.add(world, ground);
 	 
-	 log1 = Bodies.rectangle(width/2,450,width,10,{isStatic:true})
+	 log1 = Bodies.rectangle(width/2-100,607,7,100,{isStatic:true})
 	 World.add(world,log1)
 
-	 log2 = Bodies.rectangle(width/2,603,100,5,{isStatic:true})
+	 log2 = Bodies.rectangle(398,635,200,7,{isStatic:true})
 	 World.add(world,log2)
 
-	 log3 = Bodies.rectangle(width/2,450,width,10,{isStatic:true})
-	 World.add(world,log3)	 
-
+	log3 = Bodies.rectangle(500,607,7,100,{isStatic:true}) 
+	 World.add(world,log3)
 
 	Engine.run(engine);
   
